@@ -1,5 +1,5 @@
 {
-  "name": "typescript-library-boilerplate",
+  "name": "bell-interview-assignment",
   "version": "1.0.0",
   "description": "A personal TypeScript Boilerplate for a Library",
   "main": "lib/index.js",

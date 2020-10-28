@@ -1,10 +1,21 @@
-// tslint:disable:no-unused-expression
-import { expect } from "chai";
-import "mocha";
-import { sayHello } from "../src";
+import {
+  calTotalPriceByInputTest,
+  calTotalPriceTest,
+  realCalTotalPriceTest
+} from "./calTotalPrice.spec";
+import {
+  isValidNumItemsTest,
+  isValidPricePerItemsTest,
+  isValidProvinceStateTest
+} from "./validValues.spec";
+import { discountRateTests } from "./discountRates.spec";
+import { taxRateTests } from "./taxRate.spec";
 
-describe("sayHello", () => {
-  it("says hello", () => {
-    expect(sayHello("you")).to.equal("Hello you !");
-  });
-});
+taxRateTests();
+discountRateTests();
+isValidNumItemsTest();
+isValidPricePerItemsTest();
+isValidProvinceStateTest();
+realCalTotalPriceTest();
+calTotalPriceTest();
+calTotalPriceByInputTest();

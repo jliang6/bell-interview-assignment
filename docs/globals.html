@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>typescript-library-boilerplate</title>
+	<title>bell-interview-assignment</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="index.html" class="title">typescript-library-boilerplate</a>
+					<a href="index.html" class="title">bell-interview-assignment</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -54,7 +54,7 @@
 					<a href="globals.html">Globals</a>
 				</li>
 			</ul>
-			<h1> typescript-library-boilerplate</h1>
+			<h1> bell-interview-assignment</h1>
 		</div>
 	</div>
 </header>
@@ -66,45 +66,402 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
+							<h3>Classes</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-class"><a href="classes/illegalargumentexception.html" class="tsd-kind-icon">Illegal<wbr>Argument<wbr>Exception</a></li>
+								<li class="tsd-kind-class"><a href="classes/locationcode.html" class="tsd-kind-icon">Location<wbr>Code</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Interfaces</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface"><a href="interfaces/caltotalpriceinput.html" class="tsd-kind-icon">Cal<wbr>Total<wbr>Price<wbr>Input</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Variables</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-variable"><a href="globals.html#discount_rates" class="tsd-kind-icon">DISCOUNT_<wbr>RATES</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#provinces" class="tsd-kind-icon">PROVINCES</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#province_codes" class="tsd-kind-icon">PROVINCE_<wbr>CODES</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#states" class="tsd-kind-icon">STATES</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#state_codes" class="tsd-kind-icon">STATE_<wbr>CODES</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#tax_rates" class="tsd-kind-icon">TAX_<wbr>RATES</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function"><a href="globals.html#sayhello" class="tsd-kind-icon">say<wbr>Hello</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#caltotalprice" class="tsd-kind-icon">cal<wbr>Total<wbr>Price</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#caltotalpricebyinput" class="tsd-kind-icon">cal<wbr>Total<wbr>Price<wbr>ByInput</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#discountrate" class="tsd-kind-icon">discount<wbr>Rate</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#isnumber" class="tsd-kind-icon">is<wbr>Number</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#isstring" class="tsd-kind-icon">is<wbr>String</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#isvalidcode" class="tsd-kind-icon">is<wbr>Valid<wbr>Code</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#name2code" class="tsd-kind-icon">name2<wbr>Code</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#realcaltotalprice" class="tsd-kind-icon">real<wbr>Cal<wbr>Total<wbr>Price</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#taxrate" class="tsd-kind-icon">tax<wbr>Rate</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#translatevalidnumitems" class="tsd-kind-icon">translate<wbr>Valid<wbr>Num<wbr>Items</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#translatevalidpriceperitems" class="tsd-kind-icon">translate<wbr>Valid<wbr>Price<wbr>Per<wbr>Items</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#translatevalidprovincestate" class="tsd-kind-icon">translate<wbr>Valid<wbr>Province<wbr>State</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Variables</h2>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="discount_rates" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> DISCOUNT_<wbr>RATES</h3>
+					<div class="tsd-signature tsd-kind-icon">DISCOUNT_<wbr>RATES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[{minOrderValue: 10000,discountRate: 0.1},{minOrderValue: 7000,discountRate: 0.07},{minOrderValue: 5000,discountRate: 0.05},{minOrderValue: 1000,discountRate: 0.03}]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/discountRates.ts#L1">src/discountRates.ts:1</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="provinces" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> PROVINCES</h3>
+					<div class="tsd-signature tsd-kind-icon">PROVINCES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[{name: &quot;Alberta&quot;,abbreviation: &quot;AB&quot;},{name: &quot;British Columbia&quot;,abbreviation: &quot;BC&quot;},{name: &quot;Manitoba&quot;,abbreviation: &quot;MB&quot;},{name: &quot;New Brunswick&quot;,abbreviation: &quot;NB&quot;},{name: &quot;Newfoundland and Labrador&quot;,abbreviation: &quot;NL&quot;},{name: &quot;Northwest Territories&quot;,abbreviation: &quot;NT&quot;},{name: &quot;Nova Scotia&quot;,abbreviation: &quot;NS&quot;},{name: &quot;Nunavut&quot;,abbreviation: &quot;NU&quot;},{name: &quot;Ontario&quot;,abbreviation: &quot;ON&quot;},{name: &quot;Prince Edward Island&quot;,abbreviation: &quot;PE&quot;},{name: &quot;Quebec&quot;,abbreviation: &quot;QC&quot;},{name: &quot;Saskatchewan&quot;,abbreviation: &quot;SK&quot;},{name: &quot;Yukon Territory&quot;,abbreviation: &quot;YT&quot;}]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/provinces.const.ts#L6">src/provinces.const.ts:6</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="province_codes" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> PROVINCE_<wbr>CODES</h3>
+					<div class="tsd-signature tsd-kind-icon">PROVINCE_<wbr>CODES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;PROVINCES.map(aProvince &#x3D;&gt; aProvince.abbreviation)</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/provinces.const.ts#L61">src/provinces.const.ts:61</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="states" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> STATES</h3>
+					<div class="tsd-signature tsd-kind-icon">STATES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[{name: &quot;Alabama&quot;,abbreviation: &quot;AL&quot;},{name: &quot;Alaska&quot;,abbreviation: &quot;AK&quot;},{name: &quot;American Samoa&quot;,abbreviation: &quot;AS&quot;},{name: &quot;Arizona&quot;,abbreviation: &quot;AZ&quot;},{name: &quot;Arkansas&quot;,abbreviation: &quot;AR&quot;},{name: &quot;California&quot;,abbreviation: &quot;CA&quot;},{name: &quot;Colorado&quot;,abbreviation: &quot;CO&quot;},{name: &quot;Connecticut&quot;,abbreviation: &quot;CT&quot;},{name: &quot;Delaware&quot;,abbreviation: &quot;DE&quot;},{name: &quot;District Of Columbia&quot;,abbreviation: &quot;DC&quot;},{name: &quot;Federated States Of Micronesia&quot;,abbreviation: &quot;FM&quot;},{name: &quot;Florida&quot;,abbreviation: &quot;FL&quot;},{name: &quot;Georgia&quot;,abbreviation: &quot;GA&quot;},{name: &quot;Guam&quot;,abbreviation: &quot;GU&quot;},{name: &quot;Hawaii&quot;,abbreviation: &quot;HI&quot;},{name: &quot;Idaho&quot;,abbreviation: &quot;ID&quot;},{name: &quot;Illinois&quot;,abbreviation: &quot;IL&quot;},{name: &quot;Indiana&quot;,abbreviation: &quot;IN&quot;},{name: &quot;Iowa&quot;,abbreviation: &quot;IA&quot;},{name: &quot;Kansas&quot;,abbreviation: &quot;KS&quot;},{name: &quot;Kentucky&quot;,abbreviation: &quot;KY&quot;},{name: &quot;Louisiana&quot;,abbreviation: &quot;LA&quot;},{name: &quot;Maine&quot;,abbreviation: &quot;ME&quot;},{name: &quot;Marshall Islands&quot;,abbreviation: &quot;MH&quot;},{name: &quot;Maryland&quot;,abbreviation: &quot;MD&quot;},{name: &quot;Massachusetts&quot;,abbreviation: &quot;MA&quot;},{name: &quot;Michigan&quot;,abbreviation: &quot;MI&quot;},{name: &quot;Minnesota&quot;,abbreviation: &quot;MN&quot;},{name: &quot;Mississippi&quot;,abbreviation: &quot;MS&quot;},{name: &quot;Missouri&quot;,abbreviation: &quot;MO&quot;},{name: &quot;Montana&quot;,abbreviation: &quot;MT&quot;},{name: &quot;Nebraska&quot;,abbreviation: &quot;NE&quot;},{name: &quot;Nevada&quot;,abbreviation: &quot;NV&quot;},{name: &quot;New Hampshire&quot;,abbreviation: &quot;NH&quot;},{name: &quot;New Jersey&quot;,abbreviation: &quot;NJ&quot;},{name: &quot;New Mexico&quot;,abbreviation: &quot;NM&quot;},{name: &quot;New York&quot;,abbreviation: &quot;NY&quot;},{name: &quot;North Carolina&quot;,abbreviation: &quot;NC&quot;},{name: &quot;North Dakota&quot;,abbreviation: &quot;ND&quot;},{name: &quot;Northern Mariana Islands&quot;,abbreviation: &quot;MP&quot;},{name: &quot;Ohio&quot;,abbreviation: &quot;OH&quot;},{name: &quot;Oklahoma&quot;,abbreviation: &quot;OK&quot;},{name: &quot;Oregon&quot;,abbreviation: &quot;OR&quot;},{name: &quot;Palau&quot;,abbreviation: &quot;PW&quot;},{name: &quot;Pennsylvania&quot;,abbreviation: &quot;PA&quot;},{name: &quot;Puerto Rico&quot;,abbreviation: &quot;PR&quot;},{name: &quot;Rhode Island&quot;,abbreviation: &quot;RI&quot;},{name: &quot;South Carolina&quot;,abbreviation: &quot;SC&quot;},{name: &quot;South Dakota&quot;,abbreviation: &quot;SD&quot;},{name: &quot;Tennessee&quot;,abbreviation: &quot;TN&quot;},{name: &quot;Texas&quot;,abbreviation: &quot;TX&quot;},{name: &quot;Utah&quot;,abbreviation: &quot;UT&quot;},{name: &quot;Vermont&quot;,abbreviation: &quot;VT&quot;},{name: &quot;Virgin Islands&quot;,abbreviation: &quot;VI&quot;},{name: &quot;Virginia&quot;,abbreviation: &quot;VA&quot;},{name: &quot;Washington&quot;,abbreviation: &quot;WA&quot;},{name: &quot;West Virginia&quot;,abbreviation: &quot;WV&quot;},{name: &quot;Wisconsin&quot;,abbreviation: &quot;WI&quot;},{name: &quot;Wyoming&quot;,abbreviation: &quot;WY&quot;}]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/states.const.ts#L3">src/states.const.ts:3</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="state_codes" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> STATE_<wbr>CODES</h3>
+					<div class="tsd-signature tsd-kind-icon">STATE_<wbr>CODES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;STATES.map(aState &#x3D;&gt; aState.abbreviation)</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/states.const.ts#L242">src/states.const.ts:242</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="tax_rates" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> TAX_<wbr>RATES</h3>
+					<div class="tsd-signature tsd-kind-icon">TAX_<wbr>RATES<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[{province: &quot;AB&quot;,taxRate: 0.05},{province: &quot;ON&quot;,taxRate: 0.13},{province: &quot;QC&quot;,taxRate: 0.14975},{province: &quot;MI&quot;,taxRate: 0.06},{province: &quot;DE&quot;,taxRate: 0.0}]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/taxRates.ts#L1">src/taxRates.ts:1</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function">
-					<a name="sayhello" class="tsd-anchor"></a>
-					<h3>say<wbr>Hello</h3>
+					<a name="caltotalprice" class="tsd-anchor"></a>
+					<h3>cal<wbr>Total<wbr>Price</h3>
 					<ul class="tsd-signatures tsd-kind-function">
-						<li class="tsd-signature tsd-kind-icon">say<wbr>Hello<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+						<li class="tsd-signature tsd-kind-icon">cal<wbr>Total<wbr>Price<span class="tsd-signature-symbol">(</span>numItems<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, pricePerItem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, provinceStateCode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/4b0a58e/src/index.ts#L8">index.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/calTotalPrice.ts#L26">src/calTotalPrice.ts:26</a></li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>A function to say hello to someone</p>
-								</div>
-							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>numItems: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>pricePerItem: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>provinceStateCode: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="caltotalpricebyinput" class="tsd-anchor"></a>
+					<h3>cal<wbr>Total<wbr>Price<wbr>ByInput</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">cal<wbr>Total<wbr>Price<wbr>ByInput<span class="tsd-signature-symbol">(</span>calTotalPriceInput<span class="tsd-signature-symbol">: </span><a href="interfaces/caltotalpriceinput.html" class="tsd-signature-type">CalTotalPriceInput</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/calTotalPrice.ts#L16">src/calTotalPrice.ts:16</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>calTotalPriceInput: <a href="interfaces/caltotalpriceinput.html" class="tsd-signature-type">CalTotalPriceInput</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="discountrate" class="tsd-anchor"></a>
+					<h3>discount<wbr>Rate</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">discount<wbr>Rate<span class="tsd-signature-symbol">(</span>orderValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/discountRates.ts#L20">src/discountRates.ts:20</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>orderValue: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="isnumber" class="tsd-anchor"></a>
+					<h3>is<wbr>Number</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Number<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">x</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/validValues.ts#L68">src/validValues.ts:68</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>x: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">x</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="isstring" class="tsd-anchor"></a>
+					<h3>is<wbr>String</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>String<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">x</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/validValues.ts#L72">src/validValues.ts:72</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>x: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">x</span><span class="tsd-signature-symbol"> is </span><span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="isvalidcode" class="tsd-anchor"></a>
+					<h3>is<wbr>Valid<wbr>Code</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Valid<wbr>Code<span class="tsd-signature-symbol">(</span>code<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, codes<span class="tsd-signature-symbol">: </span><a href="classes/locationcode.html" class="tsd-signature-type">LocationCode</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/validValues.ts#L61">src/validValues.ts:61</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>code: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>codes: <a href="classes/locationcode.html" class="tsd-signature-type">LocationCode</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="name2code" class="tsd-anchor"></a>
+					<h3>name2<wbr>Code</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">name2<wbr>Code<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/validValues.ts#L51">src/validValues.ts:51</a></li>
+								</ul>
+							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>name: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>  The name to say hello to.</p>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-							<p>  A hello.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="realcaltotalprice" class="tsd-anchor"></a>
+					<h3>real<wbr>Cal<wbr>Total<wbr>Price</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">real<wbr>Cal<wbr>Total<wbr>Price<span class="tsd-signature-symbol">(</span>numItems<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pricePerItem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, provinceStateCode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/calTotalPrice.ts#L55">src/calTotalPrice.ts:55</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>numItems: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>pricePerItem: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>provinceStateCode: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="taxrate" class="tsd-anchor"></a>
+					<h3>tax<wbr>Rate</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">tax<wbr>Rate<span class="tsd-signature-symbol">(</span>provinceStateCode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/taxRates.ts#L24">src/taxRates.ts:24</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>provinceStateCode: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="translatevalidnumitems" class="tsd-anchor"></a>
+					<h3>translate<wbr>Valid<wbr>Num<wbr>Items</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">translate<wbr>Valid<wbr>Num<wbr>Items<span class="tsd-signature-symbol">(</span>numItems<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/validValues.ts#L4">src/validValues.ts:4</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>numItems: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="translatevalidpriceperitems" class="tsd-anchor"></a>
+					<h3>translate<wbr>Valid<wbr>Price<wbr>Per<wbr>Items</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">translate<wbr>Valid<wbr>Price<wbr>Per<wbr>Items<span class="tsd-signature-symbol">(</span>pricePerItem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/validValues.ts#L18">src/validValues.ts:18</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pricePerItem: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="translatevalidprovincestate" class="tsd-anchor"></a>
+					<h3>translate<wbr>Valid<wbr>Province<wbr>State</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">translate<wbr>Valid<wbr>Province<wbr>State<span class="tsd-signature-symbol">(</span>provinceStateCode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/validValues.ts#L37">src/validValues.ts:37</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>provinceStateCode: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -120,8 +477,68 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-class">
+						<a href="classes/illegalargumentexception.html" class="tsd-kind-icon">Illegal<wbr>Argument<wbr>Exception</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/locationcode.html" class="tsd-kind-icon">Location<wbr>Code</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/caltotalpriceinput.html" class="tsd-kind-icon">Cal<wbr>Total<wbr>Price<wbr>Input</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#discount_rates" class="tsd-kind-icon">DISCOUNT_<wbr>RATES</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#provinces" class="tsd-kind-icon">PROVINCES</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#province_codes" class="tsd-kind-icon">PROVINCE_<wbr>CODES</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#states" class="tsd-kind-icon">STATES</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#state_codes" class="tsd-kind-icon">STATE_<wbr>CODES</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#tax_rates" class="tsd-kind-icon">TAX_<wbr>RATES</a>
+					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#sayhello" class="tsd-kind-icon">say<wbr>Hello</a>
+						<a href="globals.html#caltotalprice" class="tsd-kind-icon">cal<wbr>Total<wbr>Price</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#caltotalpricebyinput" class="tsd-kind-icon">cal<wbr>Total<wbr>Price<wbr>ByInput</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#discountrate" class="tsd-kind-icon">discount<wbr>Rate</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#isnumber" class="tsd-kind-icon">is<wbr>Number</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#isstring" class="tsd-kind-icon">is<wbr>String</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#isvalidcode" class="tsd-kind-icon">is<wbr>Valid<wbr>Code</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#name2code" class="tsd-kind-icon">name2<wbr>Code</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#realcaltotalprice" class="tsd-kind-icon">real<wbr>Cal<wbr>Total<wbr>Price</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#taxrate" class="tsd-kind-icon">tax<wbr>Rate</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#translatevalidnumitems" class="tsd-kind-icon">translate<wbr>Valid<wbr>Num<wbr>Items</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#translatevalidpriceperitems" class="tsd-kind-icon">translate<wbr>Valid<wbr>Price<wbr>Per<wbr>Items</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#translatevalidprovincestate" class="tsd-kind-icon">translate<wbr>Valid<wbr>Province<wbr>State</a>
 					</li>
 				</ul>
 			</nav>

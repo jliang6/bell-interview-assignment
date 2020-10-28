@@ -13,7 +13,7 @@
     "lib": ["es7"],
     "baseUrl": "./src",
     "paths": {
-      "typescript-library-boilerplate": ["."]
+      "bell-interview-assignment": ["."]
     }
   },
   "include": ["src"],

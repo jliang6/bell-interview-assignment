@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>bell-interview-assignment</title>
+	<title>CalTotalPriceInput | bell-interview-assignment</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="../assets/css/main.css">
 </head>
 <body>
 <header>
 	<div class="tsd-page-toolbar">
 		<div class="container">
 			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="assets/js/search.js" data-base=".">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
 					<div class="field">
 						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
 						<input id="tsd-search-field" type="text" />
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="index.html" class="title">bell-interview-assignment</a>
+					<a href="../index.html" class="title">bell-interview-assignment</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -51,124 +51,163 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="globals.html">Globals</a>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="caltotalpriceinput.html">CalTotalPriceInput</a>
 				</li>
 			</ul>
-			<h1> bell-interview-assignment</h1>
+			<h1>Interface CalTotalPriceInput</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<div class="tsd-panel tsd-typography">
-				<a href="#calculate-total-cost-price" id="calculate-total-cost-price" style="color: inherit; text-decoration: none;">
-					<h1>Calculate Total Cost Price</h1>
-				</a>
-				<p>Runtime versions:</p>
-				<ul>
-					<li>node v12.18.0</li>
-					<li>npm 6.14.4</li>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">CalTotalPriceInput</span>
+					</li>
 				</ul>
-				<p>##Library function signature:</p>
-				<p>Thre are two variations within this library.</p>
-				<p>The first variation takes 3 input formal parameters as follows:</p>
-				<pre><code>cal<span class="hljs-constructor">TotalPrice(<span class="hljs-params">numItems</span>: <span class="hljs-params">number</span> | <span class="hljs-params">string</span>, <span class="hljs-params">pricePerItem</span>: <span class="hljs-params">number</span> | <span class="hljs-params">string</span>, <span class="hljs-params">provinceStateCode</span>: <span class="hljs-params">string</span>)</span> : number</code></pre><p>numItems = number of items in zero or positive integer (number or string typed)
-					pricePerItem = Price per item (Unit price) in zero or positive floating number (number or string typed)
-				provinceStateCode = </p>
-				<ol>
-					<li>Province in Postal and ISO 3166-2:CA abbreviation or Full Province name for Canada</li>
-					<li>Or State in ISO-3166-2:US abbreviation or Full State name</li>
-				</ol>
-				<p>If illegal argument(s) is/are passed into this function,</p>
-				<pre><code><span class="hljs-attribute">IllegalArgumentException</span></code></pre><p>will be thrown with invalid values.</p>
-				<p>The second variation takes a single JSON of type</p>
-				<pre><code><span class="hljs-selector-tag">interface</span> <span class="hljs-selector-tag">CalTotalPriceInput</span> {
-  <span class="hljs-attribute">numItems</span>: number | string;
-  <span class="hljs-attribute">pricePerItem</span>: number | string;
-  <span class="hljs-attribute">provinceStateCode</span>: string;
-}</code></pre><p>as input formal parameters.  Function signature as follows:</p>
-				<pre><code><span class="hljs-function"><span class="hljs-title">calTotalPriceByInput</span><span class="hljs-params">(calTotalPriceInput: CalTotalPriceInput)</span></span> : number</code></pre><p>Similarly, IllegalArgumentException will be thrown when invalid values are passed into this function.</p>
-				<p>##Dependency Installation:</p>
-				<pre><code><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> &lt;working_directory&gt;</span>
-<span class="hljs-meta">$</span><span class="bash"> npm install</span></code></pre><p>##Running Tests from the command line</p>
-				<pre><code><span class="hljs-meta">$</span><span class="bash"> npm <span class="hljs-built_in">test</span></span></code></pre><p>##Building the library</p>
-				<pre><code>$ npm <span class="hljs-keyword">run</span><span class="bash"> clean build</span></code></pre><p>##Building library distribution</p>
-				<pre><code>$ npm <span class="hljs-keyword">run</span><span class="bash"> bundle</span></code></pre>
-			</div>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="caltotalpriceinput.html#numitems" class="tsd-kind-icon">num<wbr>Items</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="caltotalpriceinput.html#priceperitem" class="tsd-kind-icon">price<wbr>Per<wbr>Item</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="caltotalpriceinput.html#provincestatecode" class="tsd-kind-icon">province<wbr>State<wbr>Code</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="numitems" class="tsd-anchor"></a>
+					<h3>num<wbr>Items</h3>
+					<div class="tsd-signature tsd-kind-icon">num<wbr>Items<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/calTotalPrice.ts#L11">src/calTotalPrice.ts:11</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="priceperitem" class="tsd-anchor"></a>
+					<h3>price<wbr>Per<wbr>Item</h3>
+					<div class="tsd-signature tsd-kind-icon">price<wbr>Per<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/calTotalPrice.ts#L12">src/calTotalPrice.ts:12</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="provincestatecode" class="tsd-anchor"></a>
+					<h3>province<wbr>State<wbr>Code</h3>
+					<div class="tsd-signature tsd-kind-icon">province<wbr>State<wbr>Code<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/sylvaindesve/typescript-library-boilerplate/blob/7834905/src/calTotalPrice.ts#L13">src/calTotalPrice.ts:13</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 			<nav class="tsd-navigation primary">
 				<ul>
 					<li class="globals  ">
-						<a href="globals.html"><em>Globals</em></a>
+						<a href="../globals.html"><em>Globals</em></a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-class">
-						<a href="classes/illegalargumentexception.html" class="tsd-kind-icon">Illegal<wbr>Argument<wbr>Exception</a>
+						<a href="../classes/illegalargumentexception.html" class="tsd-kind-icon">Illegal<wbr>Argument<wbr>Exception</a>
 					</li>
 					<li class=" tsd-kind-class">
-						<a href="classes/locationcode.html" class="tsd-kind-icon">Location<wbr>Code</a>
+						<a href="../classes/locationcode.html" class="tsd-kind-icon">Location<wbr>Code</a>
 					</li>
-					<li class=" tsd-kind-interface">
-						<a href="interfaces/caltotalpriceinput.html" class="tsd-kind-icon">Cal<wbr>Total<wbr>Price<wbr>Input</a>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface">
+						<a href="caltotalpriceinput.html" class="tsd-kind-icon">Cal<wbr>Total<wbr>Price<wbr>Input</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="caltotalpriceinput.html#numitems" class="tsd-kind-icon">num<wbr>Items</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="caltotalpriceinput.html#priceperitem" class="tsd-kind-icon">price<wbr>Per<wbr>Item</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="caltotalpriceinput.html#provincestatecode" class="tsd-kind-icon">province<wbr>State<wbr>Code</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-variable">
+						<a href="../globals.html#discount_rates" class="tsd-kind-icon">DISCOUNT_<wbr>RATES</a>
 					</li>
 					<li class=" tsd-kind-variable">
-						<a href="globals.html#discount_rates" class="tsd-kind-icon">DISCOUNT_<wbr>RATES</a>
+						<a href="../globals.html#provinces" class="tsd-kind-icon">PROVINCES</a>
 					</li>
 					<li class=" tsd-kind-variable">
-						<a href="globals.html#provinces" class="tsd-kind-icon">PROVINCES</a>
+						<a href="../globals.html#province_codes" class="tsd-kind-icon">PROVINCE_<wbr>CODES</a>
 					</li>
 					<li class=" tsd-kind-variable">
-						<a href="globals.html#province_codes" class="tsd-kind-icon">PROVINCE_<wbr>CODES</a>
+						<a href="../globals.html#states" class="tsd-kind-icon">STATES</a>
 					</li>
 					<li class=" tsd-kind-variable">
-						<a href="globals.html#states" class="tsd-kind-icon">STATES</a>
+						<a href="../globals.html#state_codes" class="tsd-kind-icon">STATE_<wbr>CODES</a>
 					</li>
 					<li class=" tsd-kind-variable">
-						<a href="globals.html#state_codes" class="tsd-kind-icon">STATE_<wbr>CODES</a>
-					</li>
-					<li class=" tsd-kind-variable">
-						<a href="globals.html#tax_rates" class="tsd-kind-icon">TAX_<wbr>RATES</a>
+						<a href="../globals.html#tax_rates" class="tsd-kind-icon">TAX_<wbr>RATES</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#caltotalprice" class="tsd-kind-icon">cal<wbr>Total<wbr>Price</a>
+						<a href="../globals.html#caltotalprice" class="tsd-kind-icon">cal<wbr>Total<wbr>Price</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#caltotalpricebyinput" class="tsd-kind-icon">cal<wbr>Total<wbr>Price<wbr>ByInput</a>
+						<a href="../globals.html#caltotalpricebyinput" class="tsd-kind-icon">cal<wbr>Total<wbr>Price<wbr>ByInput</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#discountrate" class="tsd-kind-icon">discount<wbr>Rate</a>
+						<a href="../globals.html#discountrate" class="tsd-kind-icon">discount<wbr>Rate</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#isnumber" class="tsd-kind-icon">is<wbr>Number</a>
+						<a href="../globals.html#isnumber" class="tsd-kind-icon">is<wbr>Number</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#isstring" class="tsd-kind-icon">is<wbr>String</a>
+						<a href="../globals.html#isstring" class="tsd-kind-icon">is<wbr>String</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#isvalidcode" class="tsd-kind-icon">is<wbr>Valid<wbr>Code</a>
+						<a href="../globals.html#isvalidcode" class="tsd-kind-icon">is<wbr>Valid<wbr>Code</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#name2code" class="tsd-kind-icon">name2<wbr>Code</a>
+						<a href="../globals.html#name2code" class="tsd-kind-icon">name2<wbr>Code</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#realcaltotalprice" class="tsd-kind-icon">real<wbr>Cal<wbr>Total<wbr>Price</a>
+						<a href="../globals.html#realcaltotalprice" class="tsd-kind-icon">real<wbr>Cal<wbr>Total<wbr>Price</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#taxrate" class="tsd-kind-icon">tax<wbr>Rate</a>
+						<a href="../globals.html#taxrate" class="tsd-kind-icon">tax<wbr>Rate</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#translatevalidnumitems" class="tsd-kind-icon">translate<wbr>Valid<wbr>Num<wbr>Items</a>
+						<a href="../globals.html#translatevalidnumitems" class="tsd-kind-icon">translate<wbr>Valid<wbr>Num<wbr>Items</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#translatevalidpriceperitems" class="tsd-kind-icon">translate<wbr>Valid<wbr>Price<wbr>Per<wbr>Items</a>
+						<a href="../globals.html#translatevalidpriceperitems" class="tsd-kind-icon">translate<wbr>Valid<wbr>Price<wbr>Per<wbr>Items</a>
 					</li>
 					<li class=" tsd-kind-function">
-						<a href="globals.html#translatevalidprovincestate" class="tsd-kind-icon">translate<wbr>Valid<wbr>Province<wbr>State</a>
+						<a href="../globals.html#translatevalidprovincestate" class="tsd-kind-icon">translate<wbr>Valid<wbr>Province<wbr>State</a>
 					</li>
 				</ul>
 			</nav>
@@ -239,7 +278,7 @@
 	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
-<script src="assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>

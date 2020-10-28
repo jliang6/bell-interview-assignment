@@ -10,7 +10,7 @@ module.exports = {
   excludeProtected: true,
   excludeExternals: true,
   readme: 'README.md',
-  name: 'typescript-library-boilerplate',
+  name: 'bell-interview-assignment',
   ignoreCompilerErrors: true,
   plugin: 'none',
   listInvalidSymbolLinks: true,
